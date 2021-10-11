@@ -1,0 +1,129 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.first-container {
+    height: 500px;
+    width: 100%;
+    background-color: chartreuse;
+    display: flex;
+    background-image: url("https://cdn.pixabay.com/photo/2015/04/20/13/10/woman-731140_960_720.jpg");
+    background-size: 100%;
+    
+
+}
+
+.item-1 {   
+    height:100px;
+    width: 100%;
+    flex:1;
+    font-size: medium;
+    text-align: center;
+}
+
+.item-2 {
+    
+    height: 100px;
+    width: 100%;
+    flex: 1;
+    display: inline-flex;
+    padding: 10px 15px;
+    line-height: 4;
+    margin-left:80px;
+
+    
+}
+
+.item-2 a{
+    display: block;
+    margin: 10px;
+}
+
+.item-3 {
+    
+    height: 100px;
+    width: 100%;
+    flex: 1;
+    text-align: center;
+    margin-top: 35px;  
+}
+
+
+.loginbtn{  
+
+}
+
+.h2{
+    -ms-text-size-adjust: 20rem;
+}
+
+.second-container {
+    background-color: gold;
+    height: 500px;
+    width: 100%px;
+    display: flex;
+    
+}
+
+.division-1 {
+    background-color: rgb(88, 201, 216);
+    height: 500px;
+    width: 100%;
+    flex: 1;
+}
+
+.division-2 {
+    background-color: rgb(88, 201, 216);
+    height: 500px;
+    width: 100%;
+    flex: 1;
+    
+    
+}
+
+.yoga-lista{
+    text-align: center;
+    list-style: none;
+    
+}
+
+.third-container {
+    background-color: olive;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    
+}
+
+.adress {
+    background-color:blue;
+    height: 300px;
+    width: 100%;
+    flex: 1;
+    flex-direction: column;
+    
+    
+}
+
+.copyright {
+    
+    background-color: orchid;
+    height: 300px;
+    width: 100%;
+    flex: 1;
+    flex-direction: column;
+    align-content: center;
+
+}
+
+.karta {
+    
+    background-color: red;
+    height: 300px;
+    width:100%px;
+    flex: 1;
+    flex-direction: column;    
+    
+}

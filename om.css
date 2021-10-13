@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-image: url(Images/buddha.jpeg);
+    background-size: cover;
+}
+
+h1{
+    text-align: center;
+    border: 1px solid black;
+    margin-top: 30px;
+    width: 300px;
+}
+
+.header {
+    height:152px;
+    width: 100%;
+    background-color: white   
+}
+
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(3, 116, 3);
+}
+
+a:hover{
+    background-color: rgb(3, 116, 3);
+    color: white;
+    padding: 2px;
+}
+
+p{
+    color: white;
+}
+
+.wrapper{
+    display: flex;
+    justify-content:space-between;
+    opacity: 1;
+}
+
+img{
+    max-width: 100%;
+    }
+
+.item-1 {   
+        text-align: center;
+        width: 150px;
+    }
+    
+.item-2 {
+    position: absolute;
+    top: 30px;
+    right: 70px;
+    display: flex;
+    margin-left:80px;   
+    }
+
+.rubrik-H1{
+    text-align-last: center;
+    font-size: 20px;
+    }
+    
+.item-2 a{
+    display: block;
+    margin: 10px;
+    }    
+
+    .grid-container{
+        display: grid;
+        grid-template-columns: auto auto auto; 
+        row-gap: 10px;
+        background-color: darkgreen;
+        margin-top: 300px;
+    }
+    #grid-container1{
+        background: border-box;
+        text-align: center;
+
+    }
+
+    .grid-item{
+        background-color: rgba(3, 116, 3, 0.345);
+        border: 2px solid black;
+        align-content: space-between;
+        margin: 0 20px 20px 20px ;
+    }
+
+    .footer {
+        background-color: rgba(3, 116, 3, 0.495);
+        width: 100%;
+        display: flex;
+        justify-content:space-around;
+        
+    }
+    
+    .adress {
+        flex-direction: column;
+        text-align: center;
+        text-align-last: center;
+    }
+   
+footer h3{
+    color: white;
+}    
+
+.adress a{
+    color: white;
+}
+
+.adress a:hover{
+    padding: 0px;
+    background-color: transparent;
+}
+
+    .copyright {
+        text-align: center;
+    }
+    
+    .karta {
+        
+        flex-direction: column;  
+        text-align:center;
+    }
+
+
+

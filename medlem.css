@@ -5,11 +5,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
-body{
-    background-image: url(Images/yoganatur.jpeg);
+main{
+    background-image: url(Images/polarbear.jpeg);
     background-size: cover;
-    background-image: 100%;
-     
+    background-repeat: no-repeat;
 
 }
 .header {
@@ -49,7 +48,7 @@ img{
 }
 
 .item{
-    background-color: rgba(0, 128, 0, 0.447);
+    background-color: rgba(0, 128, 0, 0.29);
     padding: 30px 60px 40px 60px;
     margin: 40px;
     color: black;
@@ -57,20 +56,30 @@ img{
 
 }
 
-.third-container{
-    display: flex; 
-    margin-left: 410px;
-    
-
+.second-container{
+    padding-top: 10px;
+    float: right;
 }
+
+.third-container{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 200px;  
+}
+
+.item.item-3{
+    
+    border-radius: 20px;
+    
+}
+
 
 .item.item-4{
-    background-color:rgba(0, 128, 0, 0.447);
-    display: block;
-    text-align: center;
+    background-color:rgba(0, 128, 0, 0.29);
+    text-align: center;   
+    border-radius: 20px;
     
 }
-
 
 .rubrik-H1{
     text-align-last: center;
@@ -80,6 +89,7 @@ img{
 .item-2 a{
     display: block;
     margin: 2px;
+
     }    
 
 a{
@@ -90,32 +100,51 @@ a{
 
 a:hover{
     background-color: rgb(0,128, 0.447);
-    color: white;
+    color:black;
     padding: 2px;
 }
 
 p{
-    color:black;
-    
+    color:black;   
 }
 
-#button{
-    border: 30px;
-    border-radius: 5px;
+.button.button{
+width: 40%;
+margin-left: 30%;
+margin-right: 30%
 }
-    
 
-
-
-
-
+.main-button button{
+  position: relative;
+  display: block;
+  width: 200px;
+  height: 36px;
+  border-radius: 18px;
+  background-color: #1f862d87;
+  border: solid 1px transparent;
+  color:black;
+  font-size: 16px;
+  font-weight: 200;
+  cursor: pointer;
+  transition: all .1s ease-in-out; 
+  align-content: center;
+  
+}
+   
+.main-button button:hover {
+    background-color: transparent;
+    border-color: #fff;
+    transition: all .1s ease-in-out;
+  }
+  
 
 .footer {
-    background-color: rgba(3, 116, 3, 0.495);
+    background-color: rgba(0, 128, 0, 0.29);
     width: 100%;
     display: flex;
     justify-content:space-around;
     margin: border solid 2px;
+    padding-bottom: 40px;
     
 }
 
@@ -123,11 +152,11 @@ p{
     flex-direction: column;
     text-align: center;
     text-align-last: center;
-    padding: 50px;
+    padding: 90px 20px 0px 0px;
 }  
 
 .adress a{
-color: white;
+color: black;
 
 }
 
@@ -141,16 +170,20 @@ background-color: transparent;
 }
 
 .icons{
-padding-top: 70px;
-
+padding-top: 100px;
 }  
 
 .karta {
-    
     flex-direction: column;  
     text-align:center;
+    margin-top: 20px;
+    
 }
 
-h3 {
-color: white;
+h5 {
+color:black;
+text-align: center;
+border: 2px solid;
+width: 50%;
+
 }

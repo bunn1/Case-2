@@ -57,36 +57,29 @@
                                 <label for="password">lösenord</label><br>
                                 <input type="password" name="password" id="password"><br>
                             </p>
-                            <div id="button">
-                                <input type="submit" value="Skicka" />
-                            </div>
                         </form>
                     </fieldset>
+                    <div class="main-button">
+                        <button class="button">Skicka</button>
+                    </div>
                 </div>
             </div>
             <div class="third-container">
                 <div class="item item-4">
                     <fieldset class="message">
                         <legend>För allmänna frågor skriv här:</legend>
-                        <p>
-                            <label for="message"><span class="Fråga"></span></label>
-                            <textarea id="message" name="message"></textarea>
-                        </p>
-                        <div id="button">
-                            <input type="submit" value="Skicka" />
-                        </div>
+                        <form action="medlem.html" method="POST">
+                            <p>
+                                <label for="message"><span class="Fråga"></span></label>
+                                <textarea id="message" name="message"></textarea>
+                            </p>
                     </fieldset>
+                    <div class="main-button">
+                        <button class="button">Skicka</button>
+                    </div>
                 </div>
             </div>
-            <hr>
-            <div>
-                <h3>Avgifter</h3>
-                Medlemsavgift 200 kr
-                Medlemsavgift för lärarstuderande 200 kr
-                Medlemsavgift för lärare 650 kr
-                Övriga medlemmar betalar in 200 kr i början på året (eller senare) och registreras då som medlem.
-                Medlemsavgiften ska betalas senast den 31 januari varje år.
-            </div>
+
             <footer>
                 <div class="footer">
                     <div class="adress">
@@ -123,4 +116,5 @@
             </footer>
         </main>
 </body>
+
 </html>

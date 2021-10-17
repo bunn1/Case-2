@@ -11,11 +11,12 @@ body{
 }
 
 h1{
-    text-align: center;
-    border: 1px solid black;
-    margin-top: 30px;
-    width: 300px;
+    margin: 100px 0px 50px 200px;
+    border: 2px solid black;
+    width: 320px;
     color: white;
+    text-align: center;
+    border-radius: 20px;
 }
 
 .header {
@@ -39,6 +40,7 @@ a:hover{
 
 p{
     color: white;
+    text-align: center;
 }
 
 .wrapper{
@@ -58,8 +60,8 @@ img{
     
 .item-2 {
     position: absolute;
-    top: 30px;
-    right: 70px;
+    top: 60px;
+    right: 120px;
     display: flex;
     margin-left:80px;   
     }
@@ -76,26 +78,32 @@ img{
 
     .grid-container{
         display: grid;
-        grid-template-columns: auto auto auto; 
-        row-gap: 10px;
-        background-color: darkgreen;
-        margin-top: 300px;
+        grid-template-columns: auto auto; 
+        background-color: rgba(0, 100, 0, 0.386);
+        margin:200px;
+        align-content: space-between;
+        align-items: center;
+        
+        
     }
     #grid-container1{
-        background: border-box;
-        text-align: center;
-
+        display:inline;
+        
     }
 
     .grid-item{
-        background-color: rgba(3, 116, 3, 0.345);
-        border: 2px solid black;
-        align-content: space-between;
-        margin: 20px 20px 20px 20px ;
+        padding: 50px;
+         
     }
 
+.figure{
+    padding: 50px;
+    
+}
+    
+
     .footer {
-        background-color: rgba(3, 116, 3, 0.495);
+        background-color: rgba(3, 116, 3, 0.399);
         width: 100%;
         display: flex;
         justify-content:space-around;
@@ -107,12 +115,11 @@ img{
         flex-direction: column;
         text-align: center;
         text-align-last: center;
-        padding: 50px;
+        padding: 65px 0px 0px 55px;
     }  
 
 .adress a{
-    color: white;
-    
+    color: white; 
 }
 
 .adress a:hover{
@@ -125,7 +132,7 @@ img{
     }
    
 .icons{
-    padding-top: 70px;
+    padding: 95px 60px 0px 0px;
     
 }  
 

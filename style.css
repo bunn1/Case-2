@@ -58,7 +58,8 @@ margin: 15px;
 
 .item-2 a{
     display: block;
-    margin: 2px;     
+    margin: 2px;
+    padding: 0px 25px 0px 0px;   
 }
 
 
@@ -72,6 +73,8 @@ margin: 15px;
     display: flex;
     text-align: center;
     margin: 20px 40px 20px 20px;
+    padding: 1%;
+    border-radius: 10px;
 
 }
 
@@ -103,10 +106,11 @@ border-bottom: solid 2px black;
 
 .footer {
     background-color: rgba(24, 119, 24, 0.783);
-    width: 100%;
+    width: 98%;
     display: flex;
     justify-content:space-around;
     border-radius: 5rem;
+    margin: 10px;
     
 }
 
@@ -114,7 +118,7 @@ border-bottom: solid 2px black;
     flex-direction: column;
     text-align: center;
     text-align-last: center;
-    padding: 50px;
+    padding: 60px;
 }  
 .adress a{
     color: black
@@ -130,7 +134,8 @@ background-color: transparent;
 }
 
 .icons{
-padding-top: 70px;
+padding: 90px 90px 0px 0px;
+
 
 }  
 

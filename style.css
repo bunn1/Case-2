@@ -6,7 +6,7 @@
 }
 
 .header {
-    height: 152px;
+    height: 150px;
     width: 100%;
     background-color: white;
     background-image: url("https://cdn.pixabay.com/photo/2015/04/20/13/10/woman-731140_960_720.jpg");
@@ -22,7 +22,6 @@ a{
 }
 
 a:hover{
-    background-color: rgb(3, 116, 3);
     color: white;
     padding: 2px;
 }
@@ -34,6 +33,7 @@ a:hover{
 
 img{
     max-width: 100%;
+    border-radius: 15px;
 }
 
 .item-1 {   
@@ -56,10 +56,15 @@ text-align: center;
 margin: 15px;
 }
 
-.item-2 a{
-    display: block;
-    margin: 2px;
-    padding: 0px 25px 0px 0px;   
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0px 20px 0px 20px;
+    color: rgba(3, 116, 3, 0.865);
+}
+a:hover{
+    color:black;
+    padding: 0px 20px 0px 20px;
 }
 
 
@@ -69,24 +74,21 @@ margin: 15px;
 
 .second-container {
     background-color:rgba(24, 119, 24, 0.783);
+    border-radius: 20px;
     display: flex;
     text-align: center;
     margin: 20px 20px;
     padding: 1%;
-    border-radius: 20px;
+    
 
 }
-
 .division-1 {
     
     flex: 1;
     border-right: black 2px solid;
-    border-bottom: black 2px solid;    
-    background-image:;
+    border-bottom: black 2px solid;       
 }
-
-.division-2 {
-    
+.division-2 {  
     flex: 1;
     border-bottom: solid 2px black;
 
@@ -96,13 +98,28 @@ margin: 15px;
 flex: 1;
 border-left: solid 2px black;
 border-bottom: solid 2px black;
+
+}
+
+.third-container{
+    background-color: rgba(24, 119, 24, 0.783);
+    border-radius: 20px;
+    display: flex;
+    text-align: center;
+    margin: 20px 20px;
+    padding: 1%;
+}
+
+.division-4{
+border-bottom: 2px solid black;
+border-left: 2px solid black;
+border-right: 2px solid black;
 }
 
 .yoga-lista{
     text-align: center;
     list-style: none; 
 }
-
 .footer {
     background-color: rgba(24, 119, 24, 0.783);
     display: flex;
@@ -111,7 +128,6 @@ border-bottom: solid 2px black;
     margin: 20px 20px;
     
 }
-
 .adress {
     flex-direction: column;
     text-align: center;
@@ -121,31 +137,29 @@ border-bottom: solid 2px black;
 .adress a{
     color: black
 }
-
 .adress a:hover{
 padding: 0px;
 background-color: transparent;
 }
-
 .copyright {
     text-align: center;
 }
-
 .icons{
 padding: 90px 90px 0px 0px;
-
 }  
-
-.karta {
-    
+.karta {  
     flex-direction: column;  
     text-align:center;
+    border-radius: 15px;
+}
+
+.karta-2{
+    border-radius: 15px;
 }
 
 h3 {
 color:black;
 }
-
 .top-button {
     position: fixed;
     right: 16px;
@@ -154,7 +168,7 @@ color:black;
 }
 .top-button button {
     text-transform: uppercase;
-    background-color: black;
+    background-color:black;
     color: white;
     border-radius: 50px;
     padding: 12px;
@@ -162,7 +176,8 @@ color:black;
 }
 .top-button button:hover {
     background-color: white;
-    color: black;
+    color:green;
     transition: 0, 89s;
     cursor: pointer;
 }
+

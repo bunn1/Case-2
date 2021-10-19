@@ -44,7 +44,7 @@ img{
 }
 .item{
     background-color: rgba(0, 128, 0, 0.29);
-    padding: 30px 60px 40px 60px;
+    padding: 50px 60px 50px 60px;
     margin: 40px;
     color: black;
     text-align: center;
@@ -64,7 +64,8 @@ img{
 }
 .item.item-4{
     background-color:rgba(0, 128, 0, 0.29);
-    text-align: center;   
+    text-align: center; 
+    padding: 50px 50px;  
     border-radius: 20px;
     
 }

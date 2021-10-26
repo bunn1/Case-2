@@ -116,37 +116,53 @@ margin-right: 30%;
     transition: all .1s ease-in-out;
   }
 
-.footer {
+footer {
     background-color: rgba(0, 128, 0, 0.29);
     width: 100%;
     display: flex;
-    justify-content:space-around;
     margin: border solid 2px;
-    padding-bottom: 40px;
+    padding-bottom: 25px;
+    
 }
 .adress {
-    flex-direction: column;
+    flex-direction: 1;
     text-align: center;
     text-align-last: center;
-    padding: 90px 20px 0px 0px;
+    margin: 25px;
 }  
 .adress a{
 color: black;
 }
+
+.adress p {
+    margin: 85px 0px 25px 25px;
+}
+
 .adress a:hover{
-padding: 0px;
+padding: 2px;
 background-color: transparent;
 }
-.copyright {
-    text-align: center;
+.copyright {  
+    margin-top: 190px;
+    margin-left: 180px;
+
 }
+
+.icons-container{
+padding-top: 25px;
+flex: 1;
+} 
+
 .icons{
-padding-top: 100px;
-}  
+   margin-left:225px ;
+   margin-top: 90px; 
+}
+
 .karta {
     flex-direction: column;  
     text-align:center;
-    margin-top: 20px;    
+    margin-top: 20px;
+    flex: 1;    
 }
 h5 {
 color:black;
